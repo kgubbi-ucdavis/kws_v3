@@ -1,5 +1,5 @@
-Overview
-This project implements a hardware accelerator for a specific application, integrated within a standard user project wrapper for use in a system-on-chip (SoC) environment. The accelerator includes various processing elements (PEs), a global buffer, and a ReLU module, controlled by a top-level controller module. The project is designed to be instantiated within a user-defined project wrapper that interfaces with a Wishbone bus, Logic Analyzer, and general-purpose I/O pins.
+Overview  
+This project implements a hardware accelerator for a lightweight Keyword Spotting using Generative AI for Hardware Design, integrated within a standard user project wrapper (from Caraval) for use in a system-on-chip (SoC) environment. The accelerator includes various processing elements (PEs), a global buffer, and a ReLU module, controlled by a top-level controller module. The project is designed to be instantiated within a user-defined project wrapper that interfaces with a Wishbone bus, Logic Analyzer, and general-purpose I/O pins.
 
 
 Directory Structure:  
