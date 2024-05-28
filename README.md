@@ -1,9 +1,8 @@
 Overview
 This project implements a hardware accelerator for a specific application, integrated within a standard user project wrapper for use in a system-on-chip (SoC) environment. The accelerator includes various processing elements (PEs), a global buffer, and a ReLU module, controlled by a top-level controller module. The project is designed to be instantiated within a user-defined project wrapper that interfaces with a Wishbone bus, Logic Analyzer, and general-purpose I/O pins.
 
-Directory Structure
-markdown
-Copy code
+
+Directory Structure:  
 .
 ├── README.md
 ├── user_project_wrapper.v
@@ -15,6 +14,7 @@ Copy code
 ├── PE.v
 └── testbench
     └── accelerator_tb.v
+
 Files
 Top-Level Modules
 user_project_wrapper.v: The top-level module that interfaces with the Wishbone bus, Logic Analyzer, and IOs. It instantiates the user_proj_accelerator module.
