@@ -3,17 +3,17 @@ This project implements a hardware accelerator for a specific application, integ
 
 
 Directory Structure:  
-.
-├── README.md
-├── user_project_wrapper.v
-├── user_proj_accelerator.v
-├── TopLevelKWS.v
-├── Control.v
-├── GlobalBuffer.v
-├── ReLU.v
-├── PE.v
-└── testbench
-    └── accelerator_tb.v
+.  
+├── README.md  
+├── user_project_wrapper.v  
+├── user_proj_accelerator.v  
+├── TopLevelKWS.v  
+├── Control.v  
+├── GlobalBuffer.v  
+├── ReLU.v  
+├── PE.v  
+└── testbench  
+    └── accelerator_tb.v  
 
 Files
 Top-Level Modules
